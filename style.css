@@ -38,7 +38,7 @@ ul {
 /* ===== HEADER / NAVBAR ===== */
 .hero-header {
   width: 100%;
-  min-height: 100vh;
+  padding-bottom: 10px;
   background: radial-gradient(circle at top, #1f2937 0, #020617 60%);
   color: #fff;
 }
@@ -119,8 +119,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 40px 0 70px;
-  gap: 40px;
   flex-wrap: wrap;
 }
 
@@ -220,7 +218,7 @@ nav {
 
 /* ===== SECTIONS GENERAL ===== */
 .section {
-  padding: 50px 0 40px;
+  padding: 20px 0 20px;
 }
 
 .section-title {
@@ -512,4 +510,17 @@ footer {
     font-weight: 700;
     font-size: 20px;
   }
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card p {
+  flex-grow: 1;
+}
+
+.project-link {
+  margin-right: 12px;
 }
